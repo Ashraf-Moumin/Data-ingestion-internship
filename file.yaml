@@ -1,0 +1,11 @@
+file_type: csv
+dataset_name: CarData
+file_name: cars_data
+table_name: car_info
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - year
+    - transmission
+    - 'car type'
